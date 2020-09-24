@@ -1,0 +1,187 @@
+/* 整个页面 */
+#container
+{
+	position: relative;
+	top: -500px;
+	margin-left: 10%;
+	margin-right: 30%;
+	margin-top: 5%;
+
+}
+/* 右边表单 */
+#duyanEditText
+{
+	width: 90%;
+	position: relative;
+	left: 60px;
+	top: -100px;
+
+}
+#schoolEditT
+{
+	border-radius: 10px;
+	width: 240px;
+}
+#jobEdit
+{
+	position: relative;
+	top: 10px;
+}
+#jobEditT
+{
+	border-radius: 10px;
+	width: 240px;
+	position: relative;
+	left: 30px;
+}
+#schoolAddressEdit
+{
+	position: relative;
+	top: 15px;
+}
+#schoolAddressEditT
+{
+	border-radius: 10px;
+	width: 240px;
+
+}
+#advisorEdit
+{
+	position: relative;
+	top: 20px;
+}
+#advisorEditT
+{
+	border-radius: 10px;
+	width: 240px;
+	position: relative;
+	left: 30px;
+}
+#advisorPhoneEdit
+{
+	position: relative;
+	top: 20px;
+	left: 200px;
+}
+#advisorPhoneEditT
+{
+	border-radius: 10px;
+	width: 210px;
+}
+
+/* 确认按钮 */
+#duyanEditBtn
+{
+	width: 130px;
+	height: 30px;
+	background-color: #42e80c;
+	border-radius: 20px;
+	position: relative;
+	left: 15%;
+	top: 50px;
+
+}
+#duyanBackEditBtn
+{
+	width: 130px;
+	height: 30px;
+	background-color: #42e80c;
+	border-radius: 20px;
+	position: relative;
+	left: 25%;
+	top: 50px;
+
+}
+/* 头像 */
+#touxiangEdit
+{
+	float: left;
+	position: relative;
+	top: -100px;
+
+}
+@media all and (max-width: 768px)
+{
+	/* 整个页面 */
+	#container
+	{
+		position: relative;
+		top: -430px;
+	}
+	/* 右边表单 */
+	#duyanEditText
+	{
+		position: relative;
+		left: 80px;
+		top: -60px;
+	}
+	#schoolEdit
+	{
+		font-size: 14px;
+	}
+	#schoolEditT
+	{
+		width: 180px;
+	}
+	#jobEdit
+	{
+		font-size: 14px;
+	}
+	#jobEditT
+	{
+		border-radius: 10px;
+		width: 180px;
+	}
+	#schoolAddressEdit
+	{
+		font-size: 14px;
+	}
+	#schoolAddressEditT
+	{
+		width: 180px;
+	}
+	#advisorEdit
+	{
+		font-size: 14px;
+	}
+	#advisorEditT
+	{
+		width: 180px;
+	}
+	#advisorPhoneEdit
+	{
+		font-size: 14px;
+		position: relative;
+		left: 0px;
+	}
+	#advisorPhoneEditT
+	{
+		border-radius: 10px;
+		width: 150px;
+	}
+
+	/* 确认按钮 */
+	#duyanEditBtn
+	{
+		width: 110px;
+		position: relative;
+		left: 0px;
+		top: 40px;
+
+	}
+	#duyanBackEditBtn
+	{
+		width: 110px;
+		position: relative;
+		left: 20px;
+		top: 40px;
+
+	}
+	/* 头像 */
+	#touxiangEdit
+	{
+		display: none;
+
+	}
+
+}

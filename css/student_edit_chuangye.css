@@ -1,0 +1,170 @@
+/* 整个页面 */
+#container
+{
+	position: relative;
+	top: -500px;
+	margin-left: 10%;
+	margin-right: 30%;
+	margin-top: 5%;
+
+}
+/* 右边表单 */
+#chuangyeEditText
+{
+	width: 90%;
+	position: relative;
+	left: 60px;
+	top: -100px;
+
+}
+#companyEditT
+{
+	border-radius: 10px;
+	width: 240px;
+}
+#jobEdit
+{
+	position: relative;
+	top: 10px;
+}
+#jobEditT
+{
+	border-radius: 10px;
+	width: 240px;
+	position: relative;
+	left: 30px;
+}
+#companyAddressEdit
+{
+	position: relative;
+	top: 15px;
+}
+#companyAddressEditT
+{
+	border-radius: 10px;
+	width: 240px;
+
+}
+#companyPhoneEdit
+{
+	position: relative;
+	top: 20px;
+}
+#companyPhoneEditT
+{
+	border-radius: 10px;
+	width: 240px;
+}
+
+/* 确认按钮 */
+#chuangyeEditBtn
+{
+	width: 130px;
+	height: 30px;
+	background-color: #42e80c;
+	border-radius: 20px;
+	position: relative;
+	left: 15%;
+	top: 50px;
+
+}
+#chuangyeBackEditBtn
+{
+	width: 130px;
+	height: 30px;
+	background-color: #42e80c;
+	border-radius: 20px;
+	position: relative;
+	left: 25%;
+	top: 50px;
+
+}
+/* 头像 */
+#touxiangEdit
+{
+	float: left;
+	position: relative;
+	top: -100px;
+
+}
+@media all and (max-width: 768px)
+{
+	/* 整个页面 */
+	#container
+	{
+		position: relative;
+		top: -430px;
+	}
+	/* 右边表单 */
+	#chuangyeEditText
+	{
+		position: relative;
+		left: 80px;
+		top: -60px;
+
+	}
+	#companyEdit
+	{
+		font-size: 14px;
+	}
+	#companyEditT
+	{
+		width: 180px;
+	}
+	#jobEdit
+	{
+		font-size: 14px;
+		position: relative;
+		top: 10px;
+	}
+	#jobEditT
+	{
+		width: 180px;
+		position: relative;
+		left: 30px;
+	}
+	#companyAddressEdit
+	{
+		font-size: 14px;
+		position: relative;
+		top: 15px;
+	}
+	#companyAddressEditT
+	{
+		width: 180px;
+
+	}
+	#companyPhoneEdit
+	{
+		font-size: 14px;
+		position: relative;
+		top: 20px;
+	}
+	#companyPhoneEditT
+	{
+		width: 180px;
+	}
+
+	/* 确认按钮 */
+	#chuangyeEditBtn
+	{
+		width: 110px;
+		position: relative;
+		left: 10px;
+		top: 40px;
+
+	}
+	#chuangyeBackEditBtn
+	{
+		width: 110px;
+		position: relative;
+		left: 30px;
+		top: 40px;
+
+	}
+	/* 头像 */
+	#touxiangEdit
+	{
+		display: none;
+	}
+}

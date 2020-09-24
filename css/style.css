@@ -1,0 +1,21 @@
+table{
+	border-collapse: collapse;
+	background: #fff;
+	width:70%;
+	margin:auto;
+	margin-bottom:20px;
+	margin-top: 20px; 
+	border:2px solid #ddd;
+}
+td{
+	border:1px dotted #000;
+}
+tr{
+	text-align: center;
+}
+tr:first-child{
+	font-size:15px;
+	padding:5px;
+	background: #5cb85c;
+	color:#fff;
+}

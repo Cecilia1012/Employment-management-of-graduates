@@ -1,0 +1,74 @@
+.container{
+	border:2px solid #bbf56a;
+	border-radius: 10px;
+	margin: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	overflow: hidden;
+	height: 500px;
+	background: rgba(255,255,255,0.5);
+}
+.left{
+	float: left;
+	position: relative;
+	top: 100px;
+	left: 250px;
+}
+.right{
+	float: left;
+	position: relative;
+	top: 100px;
+	left: 400px;
+}
+label{
+	display: block;
+	margin: 10px;
+}
+input{
+	border-radius: 4px;
+}
+span{
+	margin-left: 40px;
+}
+.send{
+	width: 150px;
+	height: 45px;
+	background:#3cdc39; 
+	color:#ffeb3b;
+	position: relative;
+	top: 20px;
+	left: 70px;
+	font-size: 20px;
+}
+.reset{
+	width: 100px;
+	height: 30px;
+	position: relative;
+	top: 20px;
+	left: -450px;
+}
+
+@media all and (max-width: 768px)
+{
+	.left{
+		float: none;
+		position: relative;
+		top: 10%;
+		left: 10%;
+	}
+	.right{
+		float: none;
+		position: relative;
+		top: -30%;
+		left: 50%;
+	}
+	.send{
+		position: relative;
+		top: 40px;
+	}
+	.reset{
+		position: relative;
+		top: 40px;
+		left: -50%;
+	}
+}

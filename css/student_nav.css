@@ -1,0 +1,37 @@
+/* 导航栏 */
+#studentNav
+{
+	background-color: #d4e8d1;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+/* 首页 */
+#studentHome
+{
+	width: 70px;
+	height: 30px;
+	background: #abe89e;
+	/*margin-right: 10px;*/
+}
+/* 个人中心 */
+#studentFormation
+{
+	width: 70px;
+	height: 30px;
+	background: #abe89e;
+}
+/* 查询 */
+#studentSearch
+{
+	width: 70px;
+	height: 30px;
+	background: #abe89e;
+}
+@media all and (max-width: 768px)
+{
+	#studentNav
+	{
+		position: relative;
+		top: 50px;
+	}
+}

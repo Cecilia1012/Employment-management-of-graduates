@@ -1,0 +1,113 @@
+/*整个横栏*/
+#teacher_top
+{
+	background:#f7f7f7;
+	height: 70px;
+	margin: auto;
+	width: 90%;
+}
+/*图标*/
+#top_photo
+{
+	width: 60px;
+	float: left;
+	position: relative;
+	top: 5px;
+}
+/*大标题*/
+#top_title
+{
+	color: gray;
+	font-size: 26px;
+	position: relative;
+	top: 5px;
+
+}
+/*小标题*/
+#top_titleE
+{
+	position: relative;
+	top: 5%;
+	font-size: 15px;
+	color: gray;
+}
+
+/* 退出按钮 */
+#exit
+{
+	position: relative;
+	top: -40px;
+	left: 85%;
+	width: 70px;
+	height: 40px;
+	font-size: 18px;
+	color: white;
+	background: #42e80c;
+	border-radius: 10px;
+}
+#output
+{
+	padding-right: 50%;
+	width: 230px;
+}
+#title_right
+{
+	width: 600px;
+}
+#welcome{
+	position: relative;
+	left:800px;
+	top: -70px;
+}
+@media all and (max-width: 768px)
+{
+	/*整个横栏*/
+	#teacher_top
+	{
+		height: 50px;
+	}
+	/*图标*/
+	#top_photo
+	{
+		width: 40px;
+	}
+	/*大标题*/
+	#top_title
+	{
+		font-size: 16px;
+	}
+	/*小标题*/
+	#top_titleE
+	{
+		position: relative;
+		font-size: 10px;
+	}
+
+	/* 退出按钮 */
+	#exit
+	{
+		position: relative;
+		top: 20px;
+	}
+	/* 输出 */
+	#output
+	{
+		position: relative;
+		left: -950px;
+		top: 70px;
+		width: 230px;
+	}
+	/* 总标题 */
+	#title_right
+	{
+		width: 500px;
+	}
+	#welcome
+	{
+		color: white;
+		position: relative;
+		left:1300px;
+		top: -80px;
+	}
+}
+

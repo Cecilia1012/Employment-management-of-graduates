@@ -1,0 +1,135 @@
+/* 修改页面 */
+#container
+{
+	position: relative;
+	top: -70%;
+	left: 20%;
+
+}
+/* 右边部分 */
+#pwdText
+{
+	position: relative;
+	top: 100px;
+	left: 30%;
+
+}
+/* 原始密码 */
+#pwded
+{
+	margin-bottom: 20px;
+
+}
+#pwdedT
+{
+	border-radius: 15px;
+	width: 200px;
+
+}
+/* 新的密码 */
+#newPwd
+{
+	margin-bottom: 20px;
+
+}
+#newPwdT
+{
+	border-radius: 15px;
+	width: 200px;
+
+}
+/* 确认密码 */
+#newAgain
+{
+	margin-bottom: 20px;
+
+}
+#newAgainT
+{
+	border-radius: 15px;
+	width: 200px;
+
+}
+/* 确认按钮 */
+#newpwdBtn
+{
+	width: 150px;
+	background-color: #42e80c;
+	height: 30px;
+	border-radius: 15px;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+/* 头像 */
+#touxiang
+{
+	float: left;
+	position: relative;
+	left: 100px;
+	top:-100px;
+}
+@media all and (max-width: 768px)
+{
+	/* 修改页面 */
+	#container
+	{
+		width:400px;
+		position: relative;
+		top: -500px;
+	}
+	/* 右边部分 */
+	#pwdText
+	{
+		position: relative;
+		top: 100px;
+		left: 30%;
+	}
+	/* 原始密码 */
+	#pwded
+	{
+		margin-bottom: 20px;
+
+	}
+	#pwdedT
+	{
+		width: 150px;
+
+	}
+	/* 新的密码 */
+	#newPwd
+	{
+		margin-bottom: 20px;
+
+	}
+	#newPwdT
+	{
+		width: 150px;
+
+	}
+	/* 确认密码 */
+	#newAgain
+	{
+		margin-bottom: 20px;
+
+	}
+	#newAgainT
+	{
+		border-radius: 15px;
+		width: 150px;
+
+	}
+	/* 确认按钮 */
+	#newpwdBtn
+	{
+		width: 210px;
+		position: relative;
+		left: 20px;
+		top: 30px;
+	}
+	/* 头像 */
+	#touxiang
+	{
+		display:none;
+	}
+}

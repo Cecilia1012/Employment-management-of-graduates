@@ -1,0 +1,128 @@
+/* 整个页面 */
+#container
+{
+	position: relative;
+	top: -500px;
+	margin-left: 10%;
+	margin-right: 30%;
+	margin-top: 5%;
+
+}
+/* 右边表单 */
+#daiyeEditText
+{
+	width: 90%;
+	position: relative;
+	left: 60px;
+	top: -100px;
+
+}
+#homeAddressEditT
+{
+	border-radius: 10px;
+	width: 240px;
+	position: relative;
+	left: 30px;
+}
+#homePhoneEdit
+{
+	position: relative;
+	top: 10px;
+}
+#homePhoneEditT
+{
+	border-radius: 10px;
+	width: 240px;
+	position: relative;
+	left: 30px;
+}
+
+/* 确认按钮 */
+#daiyeEditBtn
+{
+	width: 130px;
+	height: 30px;
+	background-color: #42e80c;
+	border-radius: 20px;
+	position: relative;
+	left: 15%;
+	top: 50px;
+
+}
+#daiyeBackEditBtn
+{
+	width: 130px;
+	height: 30px;
+	background-color: #42e80c;
+	border-radius: 20px;
+	position: relative;
+	left: 25%;
+	top: 50px;
+
+}
+/* 头像 */
+#touxiangEdit
+{
+	float: left;
+	position: relative;
+	top: -100px;
+
+}
+@media all and (max-width: 768px)
+{
+	/* 整个页面 */
+	#container
+	{
+		position: relative;
+		top: -430px;
+	}
+	/* 右边表单 */
+	#daiyeEditText
+	{
+		position: relative;
+		left: 80px;
+		top: -60px;
+
+	}
+	#homeAddressEdit
+	{
+		font-size: 14px;
+	}
+	#homeAddressEditT
+	{
+		width: 160px;
+	}
+	#homePhoneEdit
+	{
+		font-size: 14px;
+	}
+	#homePhoneEditT
+	{
+		width: 160px;
+	}
+
+	/* 确认按钮 */
+	#daiyeEditBtn
+	{
+		width: 110px;
+		position: relative;
+		left: 10px;
+		top: 40px;
+
+	}
+	#daiyeBackEditBtn
+	{
+		width: 110px;
+		position: relative;
+		left: 30px;
+		top: 40px;
+
+	}
+	/* 头像 */
+	#touxiangEdit
+	{
+		display: none;
+
+	}
+
+}

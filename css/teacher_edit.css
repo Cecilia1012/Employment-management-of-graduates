@@ -1,0 +1,279 @@
+/* 整个页面 */
+.container
+{
+	position: relative;
+	top: -540px;
+	margin-left: 10%;
+	margin-right: 30%;
+	margin-top: 5%;
+}
+/* 右边表单 */
+#editText
+{
+	width: 80%;
+	position: relative;
+	left: 30%;
+	top: 60px;
+}
+/* 真实姓名 */
+#trueNameEditT
+{
+	border-radius: 10px;
+	width: 150px;
+}
+/* 昵称 */
+#nichengEdit
+{
+	float: right;
+	position: relative;
+	top: -20px;
+	left: -25%;
+}
+#nichengEditT
+{
+	border-radius: 10px;
+	width: 150px;
+	position: relative;
+	left: 30px;
+
+}
+/* 性别 */
+#sex1
+{
+	margin-left: 30px;
+
+}
+#sex0
+{
+	margin-left: 10%;
+
+}
+/* 电话号码 */
+#phoneNumEditT
+{
+	border-radius: 10px;
+	width: 150px;
+
+}
+/* 邮箱 */
+#emailEditT
+{
+	border-radius: 10px;
+	position: relative;
+	left: 30px;
+	width: 150px;
+}
+/* 任职学院 */
+#departmentEditS
+{
+	height: 25px;
+	width: 150px;
+}
+/* 任教班级 */
+#classEdit
+{
+	float: right;
+	position: relative;
+	top: -20px;
+	left: -20%;
+}
+#classEditT
+{
+	height: 25px;
+	width: 150px;
+	border-radius: 10px;
+	width: 150px;
+}
+/* 入职年份 */
+#yearEditT
+{
+	border-radius: 10px;
+	width: 150px;
+}
+/* 问题 */
+#problemEditT
+{
+	border-radius: 10px;
+	width: 150px;
+	position: relative;
+	left: 30px;
+}
+/* 答案 */
+#answerEditT
+{
+	border-radius: 10px;
+	width: 150px;
+	position: relative;
+	left: 30px;
+}
+/* 确认按钮 */
+#editBtn
+{
+	width: 150px;
+	height: 30px;
+	background-color: #42e80c;
+	border-radius: 20px;
+	position: relative;
+	left: 15%;
+	top: 20px;
+}
+/* 头像 */
+#touxiangEdit
+{
+	float: left;
+	position: relative;
+	top: -300px;
+	left: 5%;
+
+}
+@media all and (max-width: 768px)
+{
+	/* 整个页面 */
+	#container
+	{
+		position: relative;
+		top: -650px;
+		margin-left: 10%;
+		margin-right: 30%;
+		margin-top: 5%;
+	}
+	/* 右边表单 */
+	#editText
+	{
+		width: 100%;
+		position: relative;
+		left: 35%;
+		top: 150px;
+		margin:10px;
+	}
+	/* 真实姓名 */
+	#trueNameEdit
+	{
+		font-size: 12px;
+	}
+	#trueNameEditT
+	{
+		height: 20px;
+	}
+	/* 昵称 */
+	#nichengEdit
+	{
+		float: none;
+		font-size: 12px;
+		position: relative;
+	    top: 0px;
+	    left:0px;
+	}
+	#nichengEditT
+	{
+        height: 20px;
+        position: relative;
+        left: 25px;
+	}
+	/* 性别 */
+	#sex10
+	{
+		font-size: 10px;
+	}
+	#sex1
+	{
+		margin-left: 10px;
+		height: 15px;
+	}
+	#sex0
+	{
+		margin-left: 10%;
+		height: 15px;
+	}
+	/* 电话号码 */
+	#phoneNumEdit
+	{
+		font-size: 10px;
+	}
+	#phoneNumEditT
+	{
+		height: 20px;
+		position: relative;
+		left: 10px;
+	}
+	/* 邮箱 */
+	#emailEdit
+	{
+		font-size: 10px;
+	}
+	#emailEditT
+	{
+		height: 20px;
+	}
+	/* 任职学院 */
+	#departmentEdit
+	{
+		font-size: 10px;
+	}
+	#departmentEditS
+	{
+		height: 20px;
+		position: relative;
+		left: 10px;
+	}
+	/* 任教班级 */
+	#classEdit
+	{
+		float: none;
+		font-size: 10px;
+		position: relative;
+		top: 0px;
+		left: 0px;
+	}
+	#classEditT
+	{
+		height: 20px;
+		position: relative;
+		left: 10px;
+	}
+	/* 入职年份 */
+	#yearEdit
+	{
+		font-size: 10px;
+	}
+	#yearEditT
+	{
+		height: 20px;
+		position: relative;
+		left: 10px;
+	}
+	/* 问题 */
+	#problemEdit
+	{
+		font-size: 10px;
+	}
+	#problemEditT
+	{
+		height: 20px;
+
+	}
+	/* 答案 */
+	#answerEdit
+	{
+		font-size: 10px;
+	}
+	#answerEditT
+	{
+		height: 20px;
+
+	}
+	/* 确认按钮 */
+	#editBtn
+	{
+		width: 210px;
+		height: 30px;
+		position: relative;
+		left: 0px;
+	}
+	/* 头像 */
+	#touxiangEdit
+	{
+		display:none;
+
+	}
+}

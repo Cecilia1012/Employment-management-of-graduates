@@ -1,0 +1,151 @@
+/* 整个页面 */
+#container
+{
+	position: relative;
+	top: -530px;
+	margin-left: 10%;
+	margin-right: 30%;
+	margin-top: 5%;
+
+}
+/* 右边表单 */
+#jiuyeEditText
+{
+	width:90%;
+	position: relative;
+	left: 60px;
+	top: -100px;
+
+}
+#companyEditT
+{
+	border-radius: 10px;
+	width: 240px;
+}
+#jobEditT
+{
+	border-radius: 10px;
+	width: 240px;
+	position: relative;
+	left: 30px;
+}
+#companyAddressEditT
+{
+	border-radius: 10px;
+	width: 240px;
+
+}
+#companyPhoneEditT
+{
+	border-radius: 10px;
+	width: 240px;
+}
+
+/* 确认按钮 */
+#jiuyeEditBtn
+{
+	width: 130px;
+	height: 30px;
+	background-color: #42e80c;
+	border-radius: 20px;
+	position: relative;
+	left: 15%;
+	top: 50px;
+
+}
+#jiuyeBackEditBtn
+{
+	width: 130px;
+	height: 30px;
+	background-color: #42e80c;
+	border-radius: 20px;
+	position: relative;
+	left: 25%;
+	top: 50px;
+
+}
+/* 头像 */
+#touxiangEdit
+{
+	float: left;
+	position: relative;
+	top: -80px;
+
+}
+@media all and (max-width: 768px)
+{
+	/* 整个页面 */
+	#container
+	{
+		position: relative;
+		top: -440px;
+	}
+	/* 右边表单 */
+	#jiuyeEditText
+	{
+		position: relative;
+		left: 100px;
+		top: -40px;
+	}
+	#companyEdit
+	{
+		font-size: 14px;
+	}
+	#companyEditT
+	{
+		border-radius: 10px;
+		width: 180px;
+	}
+	#jobEdit
+	{
+		font-size: 14px;
+	}
+	#jobEditT
+	{
+		border-radius: 10px;
+		width: 180px;
+	}
+	#companyAddressEdit
+	{
+		font-size: 14px;
+	}
+	#companyAddressEditT
+	{
+		border-radius: 10px;
+		width: 180px;
+	}
+	#companyPhoneEdit
+	{
+		font-size: 14px;
+	}
+	#companyPhoneEditT
+	{
+		border-radius: 10px;
+		width: 180px;
+	}
+
+	/* 确认按钮 */
+	#jiuyeEditBtn
+	{
+		width: 110px;
+		position: relative;
+		left: 10px;
+		top: 30px;
+
+	}
+	#jiuyeBackEditBtn
+	{
+		width: 110px;
+		position: relative;
+		left: 30px;
+		top: 30px;
+
+	}
+	/* 头像 */
+	#touxiangEdit
+	{
+		display: none;
+
+	}
+
+}

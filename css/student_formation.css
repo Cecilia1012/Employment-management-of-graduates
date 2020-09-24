@@ -1,0 +1,74 @@
+/* 整个信息显示页面 */
+#Scontainer{
+	position: relative;
+	top: -440px;
+	margin-left: 10%;
+	margin-right: 30%;
+}
+/* 右边 */
+#studentText
+{
+	width: 100px;
+	padding-left: 30%;
+}
+
+/* 头像 */
+#Stouxiang
+{
+	width: 150px;
+	position: relative;
+	top: -300px;
+	left: 5%;
+
+}
+/* 就业去向按钮 */
+ #path
+{
+	height: 30px;
+	background-color: #42e80c;
+	position: relative;
+	top: -100px;
+	left: 30%;
+	border-radius: 15px;
+} 
+/* 信息 */
+#textView
+{
+	float: right;
+	position: relative;
+	top:-230px;
+	left: -15%;
+}
+@media all and (max-width: 768px)
+{
+	/* 整个信息显示页面 */
+	#Scontainer{
+		position: relative;
+		top: -400px;
+		margin-left: 10%;
+		margin-right: 30%;
+	}
+	/* 头像 */
+	#Stouxiang
+	{
+		display: none;
+	}
+	/* 就业去向按钮 */
+	 #path
+	{
+		width: 120px;
+		height: 40px;
+		left: 100px;
+		border-radius: 20px;
+		position: relative;
+		top: 100px;
+	} 
+	/* 信息 */
+	#textView
+	{
+		position: relative;
+		top:-230px;
+		left:10%;
+	}
+
+}

@@ -1,0 +1,27 @@
+/* 导航栏 */
+#nav
+{
+	background-color: #d4e8d1;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+input{
+	width: 70px;
+	height: 30px;
+	background: #abe89e;
+}
+
+@media all and (max-width: 768px)
+{
+	/* 导航栏 */
+	#nav
+	{
+		position: relative;
+		top: 50px;
+	}
+	input{
+		width: 50px;
+		height: 30px;
+		background: #abe89e;
+	}
+}

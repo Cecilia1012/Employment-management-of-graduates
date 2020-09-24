@@ -1,0 +1,51 @@
+.container{
+	border:2px solid #bbf56a;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 20px;
+	overflow: hidden;
+	height: 100px;
+	width: 80%;
+	background: rgba(255,255,255,0.5);
+}
+.radio{
+	position: relative;
+	left: 35%;
+	top: 30px;
+}
+.searchbtn{
+	position: relative;
+	left: 50%;
+	top: 20%;
+	height: 30%;
+	width: 8%;
+	background:#3cdc39; 
+	color:#ffeb3b;
+	border-radius: 10px;
+}
+.searchtext{
+	position: relative;
+	left: 2%;
+	width:30%;
+	text-align: center;
+}
+
+@media all and (max-width: 768px)
+{
+	.radio{
+		font-size: 15px;
+	}
+	.r2{
+		position: relative;
+		top: 30px;
+		left: -30%;
+	}
+	.searchtext{
+		position: relative;
+		top: 20px;
+	}
+	.searchbtn{
+		position: relative;
+		top: 20px;
+	}
+}

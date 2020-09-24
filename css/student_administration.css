@@ -1,0 +1,53 @@
+/* 整个管理框 */
+#teacherBgd
+{
+	background-color: rgba(225,255,255,0.4);
+	margin: auto;
+	width: 80%;
+	margin-top: 20px;
+	height: 90%;
+}
+/* 用户管理 */
+#adminTitle
+{
+	font-size: 22px;
+	border-bottom: 1px solid gray;
+	margin-left: 25%;
+	margin-right: 40px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+/* 基本资料 */
+#documentBtn
+{
+	margin-left: 25%;
+	height: 40px;
+	background:#d9ffad;  
+
+}
+/* 信息管理 */
+#adminBtn
+{
+	margin-left: 10px;
+	height: 40px;
+	background:#d9ffad; 
+
+}
+/* 密码管理 */
+#pwdBtn
+{
+	margin-left: 10px;
+	height: 40px;
+	background:#d9ffad; 
+
+}
+@media all and (max-width: 768px)
+{
+	/* 整个管理框 */
+	#teacherBgd
+	{
+		height: 650px;
+		position: relative;
+		top: 42px;
+	}
+}

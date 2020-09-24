@@ -1,0 +1,153 @@
+/*整个登录框*/
+#container
+{
+	background-color: rgba(255,255,255,0.6);/*半透明的白色*/
+	width: 500px;
+	height: 300px;
+	margin-left: 30%;
+	margin-top: 10%;
+	border-radius: 20px;
+}
+/*头像*/
+#login_img
+{
+	float: left;
+	margin-left: 5%;
+	margin-top: 8%;
+}
+/* 用户框 */
+#id
+{
+	border-radius: 8px;
+	width: 200px;
+	height: 25px;
+	margin-top: 10%;
+
+}
+/* 密码框 */
+#password
+{
+	border-radius: 8px;
+	width: 200px;
+	height: 25px;
+	margin-top: 15px;
+
+}
+/* 单选按钮 */
+#teacher
+{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+/* 登录按钮 */
+#loginBtn
+{
+	background-color: #42e80c;
+	width: 80px;
+	height: 30px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 5px;
+	font-size: 18px;
+	color: white;
+}
+/* 注册按钮 */
+#createBtn
+{
+	background-color: #42e80c;
+	width: 80px;
+	height: 30px;
+	border-radius: 10px;
+	margin-top: 10px;
+	font-size: 18px;
+	color: white;
+}
+/*整个输入框*/
+#loginForm
+{
+	float: right;
+	width: 200px;
+	margin-right: 10%;
+	margin-top: 8%;
+}
+#forgetPwd
+{
+	width: 100px;
+	height: 30px;
+	position: relative;
+	left:70%;
+}
+@media all and (max-width:768px)
+{
+
+	/*整个登录框*/
+	#container
+	{
+		width: 80%;
+		height: 80%;
+		margin:auto;
+		border-radius: 0px;
+	}
+	/*头像*/
+	#login_img
+	{
+		display: none;
+	}
+	/* 用户框 */
+	#id
+	{
+		border-radius: 30px;
+		width: 100%;
+		height: 40px;
+		margin-top: 20%;
+		/*margin-left: */
+
+	}
+	/* 密码框 */
+	#password
+	{
+		border-radius: 30px;
+		width: 100%;
+		height: 40px;
+		margin-top: 10%;
+	}
+	/* 单选按钮 */
+	#teacher
+	{
+		position: relative;
+		margin-left: 50%;
+		margin-top: 10%;
+	}
+	/* 登录按钮 */
+	#loginBtn
+	{
+		width: 100%;
+		height: 40px;
+		border-radius: 30px;
+		margin-top: 10%;
+	}
+	/* 注册按钮 */
+	#createBtn
+	{
+		width: 100%;
+		height: 40px;
+		border-radius: 30px;
+		margin-top: 10%;
+		position: relative;
+		left: 5px;
+	}
+	/*整个输入框*/
+	#loginForm
+	{
+		width: 60%;
+		position: relative;
+		left: -40px;
+	}
+	#forgetPwd
+	{
+		position: relative;
+		top: 85%;
+	}
+
+}

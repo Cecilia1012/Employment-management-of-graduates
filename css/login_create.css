@@ -1,0 +1,175 @@
+/*整个登录框*/
+#container
+{
+	background-color: rgba(255,255,255,0.6);/*半透明的白色*/
+	width: 500px;
+	height: 300px;
+	margin-left: 30%;
+	margin-top: 10%;
+	border-radius: 20px;
+}
+/*头像*/
+#login_img
+{
+	float: left;
+	margin-left: 5%;
+	margin-top: 8%;
+}
+/* 标题 */
+#createTitle
+{
+	font-size: 20px;
+	text-align: center;
+	color: gray;
+}
+/* 用户框 */
+#newId
+{
+	border-radius: 8px;
+	width: 200px;
+	height: 25px;
+
+}
+/* 密码框 */
+#newPwd
+{
+	border-radius: 8px;
+	width: 200px;
+	height: 25px;
+	margin-top: 15px;
+
+}
+/* 确认密码框 */
+#againPwd
+{
+	border-radius: 8px;
+	width: 200px;
+	height: 25px;
+	margin-top: 15px;
+}
+#newTrueName
+{
+	border-radius: 8px;
+	width: 200px;
+	height: 25px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+
+}
+/* 单选框 */
+#createStudent
+{
+}
+#createTeacher
+{
+	margin-left: 40px;
+
+}
+/* 注册按钮 */
+#createBtnB
+{
+	background-color: #42e80c;
+	width: 200px;
+	height: 30px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-right: 20px;
+	font-size: 18px;
+	color: white;
+}
+/*整个输入框*/
+#loginForm
+{
+	float: right;
+	width: 200px;
+	margin-right: 10%;
+}
+@media all and (max-width: 768px)
+{
+	/*整个登录框*/
+	#container
+	{
+		width: 80%;
+		height: 80%;
+		margin:auto;
+		border-radius: 0px;
+	}
+	/*头像*/
+	#login_img
+	{
+		display:none;
+	}
+	/* 标题 */
+	#createTitle
+	{
+		font-size: 24px;
+		text-align: center;
+		color: gray;
+	}
+	/* 用户框 */
+	#newId
+	{
+		position: relative;
+		left: -6%;
+		border-radius: 30px;
+		width: 240px;
+		height: 40px;
+		margin-top: 10%;
+	}
+	/* 密码框 */
+	#newPwd
+	{
+		position: relative;
+		left: -6%;
+		margin-top: 12%;
+		border-radius: 30px;
+		width: 240px;
+		height: 40px;
+
+	}
+	/* 确认密码框 */
+	#againPwd
+	{
+		position: relative;
+		left: -6%;
+		margin-top: 12%;
+		border-radius: 30px;
+		width: 240px;
+		height: 40px;
+	}
+	#newTrueName
+	{
+		position: relative;
+		left: -6%;
+		margin-top: 12%;
+		border-radius: 30px;
+		width: 240px;
+		height: 40px;
+		margin-bottom: 10%;
+	}
+	/* 单选框 */
+	#createTeacher
+	{
+		margin-left: 80px;
+
+	}
+	/* 注册按钮 */
+	#createBtnB
+	{
+		position: relative;
+		left: -6%;
+		margin-top: 12%;
+		background-color: #42e80c;
+		width: 240px;
+		height: 40px;
+		border-radius: 30px;
+		margin-right: 20px;
+	}
+	/*整个输入框*/
+	#loginForm
+	{
+		width: 50%;
+		position: relative;
+		left: -10%;
+	}
+}

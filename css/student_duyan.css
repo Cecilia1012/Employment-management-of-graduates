@@ -1,0 +1,80 @@
+/* 整个信息显示页面 */
+#SDcontainer{
+	position: relative;
+	top: -440px;
+	margin-left: 10%;
+	margin-right: 30%;
+}
+/* 右边 */
+#studentDView
+{
+	width: 130px;
+	padding-left: 30%;
+}
+
+/* 头像 */
+#SJtouxiang
+{
+	width: 150px;
+	position: relative;
+	top:-200px;
+
+}
+/* 返回按钮 */
+ #backDBtn
+{
+	height: 30px;
+	width: 80px;
+	border-radius: 10px;
+	background-color: #42e80c;
+	position: relative;
+	top: 10px;
+	left: 0px;
+} 
+#textView
+{
+	float: left;
+	position: relative;
+	top:-170px;
+	left: 50%;
+}
+@media all and (max-width: 768px)
+{
+	/* 整个信息显示页面 */
+	#SDcontainer{
+		position: relative;
+		top: -450px;
+		margin-left: 10%;
+		margin-right: 30%;
+		margin-top: 5%;
+	}
+	/* 右边 */
+	#studentDView
+	{
+		width: 130px;
+		padding-left: 30%;
+	}
+
+	/* 头像 */
+	#SJtouxiang
+	{
+		display: none;
+
+	}
+	/* 返回按钮 */
+	 #backDBtn
+	{
+		height: 30px;
+		width: 100px;
+		border-radius: 20px;
+		position: relative;
+		top: 10px;
+		left: 0px;
+	} 
+	#textView
+	{
+		position: relative;
+		top:-170px;
+		left: 70%;
+	}
+}

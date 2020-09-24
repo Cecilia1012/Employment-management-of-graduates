@@ -1,0 +1,58 @@
+/*整个横栏*/
+#login_top
+{
+	background:#f7f7f7;
+	height: 70px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+/*图标*/
+#top_photo
+{
+	width: 60px;
+	float: left;
+	position: relative;
+	top: 5px;
+}
+/*大标题*/
+#top_title
+{
+	color: gray;
+	font-size: 26px;
+	position: relative;
+	top: 5px;
+
+}
+/*小标题*/
+#top_titleE
+{
+	position: relative;
+	top: -15px;
+	font-size: 15px;
+	color: gray;
+}
+@media all and (max-width:768px)
+{
+	/*整个横栏*/
+	#login_top
+	{
+		height: 50px;
+	}
+	#top_photo
+	{
+		width: 40px;
+	}
+	#top_title
+	{
+		font-size: 16px;
+	}
+	/*小标题*/
+	#top_titleE
+	{
+		font-size: 10px;
+		position: relative;
+	    top: -5px;
+	}
+
+}
+

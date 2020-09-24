@@ -1,0 +1,73 @@
+/* 整个信息显示页面 */
+#SJcontainer{
+	position: relative;
+	top: -440px;
+	margin-left: 10%;
+	margin-right: 30%;
+}
+/* 右边 */
+#studentJView
+{
+	width: 130px;
+	padding-left: 30%;
+}
+
+/* 头像 */
+#SJtouxiang
+{
+	width: 150px;
+	position: relative;
+	top: -300px;
+	left: 5%;
+
+}
+/* 返回按钮 */
+ #backJBtn
+{
+	height: 30px;
+	width: 80px;
+	border-radius: 10px;
+	background-color: #42e80c;
+	position: relative;
+	top: 10px;
+	left: 0px;
+} 
+#textView
+{
+	float: left;
+	position: relative;
+	top:-245px;
+	left: 60%;
+}
+@media all and (max-width:768px )
+{
+	/* 整个信息显示页面 */
+	#SJcontainer{
+		position: relative;
+		top: -450px;
+		left: 20%;
+	}
+	/* 右边 */
+	#studentJView
+	{
+		padding-left: 2%;
+	}
+	/* 头像 */
+	#SJtouxiang
+	{
+		display: none;
+	}
+	/* 返回按钮 */
+	 #backJBtn
+	{
+		height: 30px;
+		width: 150px;
+		border-radius: 20px;
+	} 
+	#textView
+	{
+		position: relative;
+		top:-245px;
+		left: 60%;
+	}
+}

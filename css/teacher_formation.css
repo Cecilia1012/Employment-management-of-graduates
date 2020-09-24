@@ -1,0 +1,55 @@
+/* 整个信息显示页面 */
+#container{
+	position: relative;
+	top: -440px;
+	margin-left: 10%;
+	margin-right: 30%;
+}
+/* 右边 */
+#text
+{
+	width: 100px;
+	padding-left: 30%;
+}
+
+/* 头像 */
+#touxiang
+{
+	width: 150px;
+	position: relative;
+	top: -300px;
+	left: 5%;
+}
+/* 输出信息 */
+#textRight{
+	float: right;
+	position: relative;
+	top:-230px;
+	left: -20%;
+}
+@media all and (max-width: 768px)
+{
+	/* 整个信息显示页面 */
+	#container{
+		position: relative;
+		top: -400px;
+		margin-left: 10%;
+		margin-right: 30%;
+	}
+	/* 头像 */
+	#touxiang
+	{
+		display:none;
+
+	}
+	/* 输出信息 */
+	#textRight{
+		position: relative;
+		top:-190px;
+		left:10%;
+	}
+	#text{
+		position: relative;
+		top: 40px;
+	}
+}
